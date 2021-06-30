@@ -1,0 +1,10 @@
+.Layout-container{
+  width: 1000px;
+  border: 1px #eee solid;
+  margin:0 auto;
+  padding: 15px;
+  .center-content{
+    display: flex;
+    height: 80vh
+  }
+}

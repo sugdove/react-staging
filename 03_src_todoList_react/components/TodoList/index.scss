@@ -1,0 +1,15 @@
+.todoList-container{
+  width: 500px;
+  margin: 0 auto;
+  border: 1px #eee solid;
+  box-shadow: darkgoldenrod;
+  font-size: 12px;
+  line-height: 1.5;
+  padding: 10px;
+  .todoList-wrap{
+    height: 100%;
+    border: 1px #eee solid;
+    position: relative;
+  }
+  
+}

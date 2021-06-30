@@ -1,0 +1,21 @@
+.list-container{
+  margin-top: 10px;
+  .list-item{
+    float: left;
+    width: 33%;
+    border: 1px #eee solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .list-wrap{
+      width: 60%;
+      height: 218px;
+      text-align: center;
+      img{
+        width: 100%;
+        height: 168px;
+        margin-top: 15px;
+      }
+    }
+  }
+}
