@@ -1,0 +1,29 @@
+.todo-item{
+  display: flex;
+  height: 40px;
+  line-height: 40px;
+  padding: 5px;
+  border-bottom: 1px #eee solid;
+  .checkbox{
+    width:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .item{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .deleteBtn{
+      float: right;
+      height: 26px;
+    background: red;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    }
+  }
+}
